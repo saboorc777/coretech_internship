@@ -12,6 +12,10 @@ body{
     color: aliceblue;
     font-size: 120%;
 }
+.uuuu{
+    text-align: center;
+    color: aliceblue;
+}
 .lkl{
     text-align: center;
     color: aliceblue;
@@ -25,5 +29,9 @@ body{
 }
 .aaaa{
     color: aliceblue;
+}
+.pak{
+    padding-bottom: 0%;
+
 }
 }
