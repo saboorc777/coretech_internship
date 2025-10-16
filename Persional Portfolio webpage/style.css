@@ -22,6 +22,7 @@ body{
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    
 }
 h1,h2{
     margin-bottom:15px;
@@ -187,6 +188,8 @@ footer{
 }
 .container{
     margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 @media(max-width:768px){
     .main-header{
@@ -212,4 +215,7 @@ footer{
     .logo{
         justify-content: center;
     }
+}
+#contact{
+    margin-left: 80px;
 }
