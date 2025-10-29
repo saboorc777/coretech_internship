@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio — Coretech Innovations</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="nav container">
+      <div class="brand">
+        <div class="logo">CT</div>
+        <div>
+          <div class="company">Coretech Innovations</div>
+          <div class="slogan">Engineering digital futures</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="contact.html">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Portfolio Section -->
+  <main>
+    <section class="container">
+      <h2>Our Portfolio</h2>
+      <p class="muted">A selection of our recent projects for global clients.</p>
+
+      <div class="portfolio-grid">
+        <div class="project-card" onclick="openProject('Project One','Web application for analytics platform.')">
+          <img src="pro1.jpeg" alt="Project 1">
+          <h4>Analytics Dashboard</h4>
+        </div>
+
+        <div class="project-card" onclick="openProject('Project Two','Mobile app for on-demand delivery services.')">
+          <img src="pro2.png" alt="Project 2">
+          <h4>Delivery App</h4>
+        </div>
+
+        <div class="project-card" onclick="openProject('Project Three','Corporate site for a fintech company.')">
+          <img src="pro3.png" alt="Project 3">
+          <h4>Fintech Website</h4>
+        </div>
+
+        <div class="project-card" onclick="openProject('Project Four','AI chatbot integrated into CRM system.')">
+          <img src="pro4.jpg" alt="Project 4">
+          <h4>AI Chatbot</h4>
+        </div>
+
+        <div class="project-card" onclick="openProject('Project Five','E-commerce platform with smart recommendations.')">
+          <img src="pro5.jpeg" alt="Project 5">
+          <h4>E-commerce Platform</h4>
+        </div>
+
+        <div class="project-card" onclick="openProject('Project Six','Portfolio site for a creative agency.')">
+          <img src="pro6.jpg" alt="Project 6">
+          <h4>Agency Portfolio</h4>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" role="dialog" aria-modal="true">
+    <div class="modal-content" id="modalContent">
+      <button onclick="closeModal()" class="close-btn">✕</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="container">
+    <div class="footer-content">
+      <p>© <strong>Coretech Innovations</strong> — All rights reserved.</p>
+      <div class="social">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

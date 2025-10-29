@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services — Coretech Innovations</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="nav container">
+      <div class="brand">
+        <div class="logo">CT</div>
+        <div>
+          <div class="company">Coretech Innovations</div>
+          <div class="slogan">Engineering digital futures</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="contact.html">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <main>
+    <section class="container">
+      <h2>Our Services</h2>
+      <p class="muted">We offer a wide range of services tailored to startups and enterprises.</p>
+
+      <div class="services-list">
+        <div class="service-card">
+          <h4>Web Development</h4>
+          <p class="muted">Responsive websites, PWAs, and SaaS platforms.</p>
+          <button class="btn btn-ghost" onclick="openService('Web Development','We build performant websites & web apps using modern stacks.')">Learn More</button>
+        </div>
+
+        <div class="service-card">
+          <h4>App Development</h4>
+          <p class="muted">iOS & Android native and cross-platform apps.</p>
+          <button class="btn btn-ghost" onclick="openService('App Development','Native and cross-platform mobile apps with a focus on UX.')">Learn More</button>
+        </div>
+
+        <div class="service-card">
+          <h4>AI Solutions</h4>
+          <p class="muted">Custom ML models, automation, and data pipelines.</p>
+          <button class="btn btn-ghost" onclick="openService('AI Solutions','ML, NLP, and computer vision solutions tailored to your data.')">Learn More</button>
+        </div>
+
+        <div class="service-card">
+          <h4>Digital Marketing</h4>
+          <p class="muted">SEO, content strategy, and performance marketing.</p>
+          <button class="btn btn-ghost" onclick="openService('Digital Marketing','Growth-focused marketing backed by analytics.')">Learn More</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" role="dialog" aria-modal="true">
+    <div class="modal-content" id="modalContent">
+      <button onclick="closeModal()" class="close-btn">✕</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="container">
+    <div class="footer-content">
+      <p>© <strong>Coretech Innovations</strong> — All rights reserved.</p>
+      <div class="social">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

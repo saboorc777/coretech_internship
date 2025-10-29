@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Coretech Innovations</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="nav container">
+      <div class="brand">
+        <div class="logo">CT</div>
+        <div>
+          <div class="company">Coretech Innovations</div>
+          <div class="slogan">Engineering digital futures</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="contact.html">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <main>
+    <section class="container contact">
+      <h2>Contact Us</h2>
+      <p class="muted">We’d love to hear from you. Fill out the form below and we’ll get in touch soon.</p>
+
+      <div class="contact-grid">
+        <form id="contactForm" class="contact-form" onsubmit="return validateForm()">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your Name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="you@example.com" required>
+
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" placeholder="Subject" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Your message..." required></textarea>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <h4>Our Office</h4>
+          <p class="muted">Coretech Innovations<br>123 Innovation Drive<br>San Francisco, CA</p>
+
+          <h4>Email</h4>
+          <p class="muted"><a href="mailto:info@coretech.com">info@coretech.com</a></p>
+
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+          </div>
+
+          <!-- Optional Google Map Embed -->
+          <div class="map">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.1982344938123!2d-122.40135012405473!3d37.78583497975753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064c9fba6d3%3A0xdee0a741c2c264fd!2sInnovation%20Center!5e0!3m2!1sen!2sus!4v1716736480019!5m2!1sen!2sus" 
+              width="100%" 
+              height="250" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="container">
+    <div class="footer-content">
+      <p>© <strong>Coretech Innovations</strong> — All rights reserved.</p>
+      <div class="social">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
